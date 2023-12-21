@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Custom CSS for Password Generator UI */
+
+/* Update the font family and base styles */
+
+/* Password Generator container */
+.password-generator {
+  width: 100%;
+  max-width: 30rem; /* Adjust maximum width */
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: #333; /* Change text color */
+  background-color: #fff; /* Change background color */
+}
+
+/* Header style */
+.password-generator h1 {
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  background-color: #333; /* Change header background color */
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+/* Input and button container style */
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Password input style */
+.password-input {
+  flex: 1;
+  outline: none;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+/* Copy button style */
+.copy-button {
+  outline: none;
+  background-color: #007bff; /* Change button color */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 5px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #0056b3; /* Change button hover color */
+}
+
+/* Slider and checkbox container style */
+.options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+/* Slider label style */
+.label {
+  margin-right: 1rem;
+}
+
+/* Checkbox label style */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+/* Checkbox style */
+.checkbox-input {
+  margin-right: 0.5rem;
+}
+
+#numberInput,
+#charInput {
+  margin: 5px;
+}
